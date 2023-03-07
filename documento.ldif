@@ -1,0 +1,59 @@
+version: 1
+dn: dc=aeroespacial,dc=com
+objectClass: top
+objectClass: dcObject
+objectClass: organization
+dc: aeroespacial
+o: aeroespacial.com
+
+dn: ou=People,dc=aeroespacial,dc=com
+objectClass: organizationalUnit
+ou: People
+
+dn: ou=astronautas,dc=aeroespacial,dc=com
+objectClass: organizationalUnit
+ou: astronautas
+
+dn: ou=grupo_astro,dc=aeroespacial,dc=com
+objectClass: organizationalUnit
+ou: grupo_astro
+
+dn: uid=Juan,ou=grupo_astro,dc=aeroespacial,dc=com
+objectClass: inetOrgPerson
+cn: Juan
+mail: astro@example.com
+sn: Juan
+uid: Juan
+userPassword:: anVhbg==
+
+dn: ou=Instruments,dc=aeroespacial,dc=com
+objectClass: organizationalUnit
+ou: Groups
+ou: Instruments
+
+dn: ou=grupo_instru,dc=aeroespacial,dc=com
+objectClass: organizationalUnit
+ou: grupo_instru
+
+dn: uid=Lemur,ou=grupo_instru,dc=aeroespacial,dc=com
+objectClass: inetOrgPerson
+cn: Lemur
+description:: QXNjaWVuZGUgbGFzIG1vbnRhw7FhcyBkZSBNYXJ0ZQ==
+mail: artemis@example.com
+sn: Lemur
+uid: Lemur
+userPassword:: bGVtdXI=
+
+dn: uid=astrobees,ou=grupo_instru,dc=aeroespacial,dc=com
+objectClass: inetOrgPerson
+cn: astrobees
+description: tres robots en forma de esfera
+mail: astrobees@example.com
+sn: astrobees
+uid: astrobees
+userPassword:: YXN0cm9iZWVz
+
+dn: ou=instrumentos,dc=aeroespacial,dc=com
+objectClass: organizationalUnit
+ou: instrumentos
+
